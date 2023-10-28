@@ -1,0 +1,19 @@
+{
+    "name": "sebastian/bienes-raices-poo",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sebastian Contreras",
+            "email": "contreras.sebastian.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./classes"
+        }
+    }
+}
